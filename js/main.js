@@ -13,13 +13,13 @@ $(document).ready(function(){
        // console.log("hello");
       
       
-        $("#startTut").click(function(ev){
+        $("#startTut").click(function(){
         
-        ev.preventDefault();
+       
         var redirect = "#" + current;
-        console.log(redirect);
+        console.log("should go to" + redirect);
              $.mobile.navigate(redirect);
-           // $.window.location.href(redirect)
+            //window.location. = redirect;
            
         
         
