@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wifi connectivity</title>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="wifi.min.css" />
+    <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="customstyle.css" />
+
+    <!--Scripts-->
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+
+<body>
+
+
+  
+    <!-- /page -->
+
+    
+
+
+
+    <section data-role="page" id="home" data-theme="b" data-dialog="false">
+        <!--home-->
+
+
+        <!--Panel Left-->
+
+        <div data-role="panel" id="left-panel" class="ui-panel ui-panel-position-left ui-panel-display-push ui-body-inherit ui-panel-animate ui-panel-open">
+
+            <div class="ui-panel-inner">
+                <ul data-role="listview" class="ui-listview">
+                    <li data-icon="delete" class="ui-first-child"><a href="#" data-rel="close" class="ui-btn ui-btn-icon-right ui-icon-delete">Close</a>
+                    </li>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h4>Instructions</h4>
+                        <ul data-role="listview">
+                            <li><a href="#win1" class="ui-btn">Step 1</a>
+                            </li>
+                            <li><a href="#win2" class="ui-btn">Step 2</a>
+                            </li>
+                            <li><a href="#win3" class="ui-btn">Step 3</a>
+                            </li>
+                            <li><a href="#win4" class="ui-btn">Step 4</a>
+                            </li>
+                            <li><a href="#win5" class="ui-btn">Step 5</a>
+                            </li>
+                            <li><a href="#win6" class="ui-btn">Step 6</a>
+                            </li>
+                            <li><a href="#win7" class="ui-btn">Step 7</a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!--Panel Left End-->
+
+
+
+        <!--header-->
+        <div data-role="header" role="banner" class="ui-header ui-bar-inherit" data-theme="b">
+            <h1 class="ui-title" role="heading" aria-level="1">Connecting Wirelessly to the Internet</h1>
+            <a href="#left-panel" data-transition="flip" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button">Menu</a>
+        </div>
+
+
+
+
+
+        <!--header end-->
+
+        <!--Frontpage-->
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Welcome to Internet troubleShooting</h1>
+            <p>Welcome to my wifi tutorial for Mac! Together we will be going through the steps on how to set up your macintosh computer to a wireless internet connection</p>
+
+
+            <a href="#win1" id="startTut" class="ui-shadow ui-btn ui-corner-all" data-transition="slide" data-theme="b" >Begin</a>
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" class="ui-btn" data-icon="home" data-iconpos="top">Home</a>
+                        </li>
+
+                        <li><a href="#info" class="ui-btn" data-icon="info" data-iconpos="top">About Me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </article>
+    </section>
+    <!--home-->
+
+
+
+    <section data-role="page" id="win1" data-theme="b" data-dialog="true" data-close-btn="none">
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home" id="res1" class="remember"class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"> :) </a>
+            <!--header-->
+            <h1>Step 1 of 7</h1>
+
+
+
+        </div>
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Turn on your mac</h1>
+             <img src="http://cdn.osxdaily.com/wp-content/uploads/2014/04/macbook-pro-air-power-button.jpg" alt="power" style="width:100%;">
+            <p>Press the power button on your mac located at the top right corner of your computer
+            </p>
+
+
+            <a href="#"   class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-disabled backP" data-theme="b">Back</a>
+
+
+
+            <a href="#win2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+
+        </article>
+    </section>
+    <!--home-->
+
+
+    <section data-role="page" id="win2" data-theme="b" data-dialog="true" data-close-btn="none">
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home" id="res2" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"></a>
+            <!--header-->
+            <h1>Step 2 of 7</h1>
+
+
+        </div>
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Turn your wifi ON</h1>
+             <img src="http://cdn9.howtogeek.com/wp-content/uploads/2014/09/mac-os-x-open-wireless-diagnostics.png" alt="turnon" style="width:100%;">
+
+            <ul>
+
+                <li>Once your mac has booted, locate the wifi symbol on the top right hand corner of the screen and click it</li>
+                <li>select "Turn Wi-Fi On"</li>
+                <li> Exit the window </li>
+            </ul>
+
+
+            <a href="#win1" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+            </div>
+
+
+        </article>
+    </section>
+    <!--home-->
+
+    <section data-role="page" id="win3" data-theme="b" data-dialog="true" data-close-btn="none">
+
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home"  id="res3" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"> :) </a>
+            <!--header-->
+            <h1>Step 3 of 7</h1>
+        </div>
+
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Open System Preferences</h1>
+            <img src="http://switchtoamac.com/guides/images/system_preferences_leopard_01.png" alt="" style="width:100%">
+            <ul>
+                <li>
+                    Locate the apple logo at the top left hand corner of the screen and click on it
+                </li>
+                <li>
+                    Select System Preferences from the drop down menu
+                </li>
+            </ul>
+
+
+
+
+
+
+
+            <a href="#win2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+
+        </article>
+    </section>
+    <!--home-->
+
+
+
+
+    <section data-role="page" id="win4" data-theme="b" data-dialog="true" data-close-btn="none">
+
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home" id="res4" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"> :)</a>
+            <!--header-->
+            <h1>Step 4 of 7</h1>
+             
+        </div>
+
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Select the Network icon</h1>
+
+            <img class="pouring" src="http://core0.staticworld.net/images/article/2013/02/network-pref-100025337-large.jpg" alt="Network icon">
+
+
+            <p>Once the window has loaded, locate the Network icon and select it.
+            </p>
+
+
+
+
+
+
+            <a href="#win3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+        </article>
+
+    </section>
+    <!--home-->
+
+
+
+
+    <section data-role="page" id="win5" data-theme="b" data-dialog="true" data-close-btn="none">
+
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home" id="res5" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"> :) </a>
+            <!--header-->
+            <h1>Step 5 of 7</h1>
+              
+        </div>
+
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Choose network</h1>
+            <img src="http://www.tp-link.com/resources/images/faq/2010127155551712.jpg" alt="" style="width:100%" >
+
+            <ul>
+                <li> Make sure you are in the Wi-Fi panel </li>
+                <li> Beside the "Network Name:" option, select the name of your desired network</li>
+            </ul>
+
+
+
+
+            <a href="#win4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win6" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+        </article>
+
+    </section>
+    <!--home-->
+
+
+
+    <section data-role="page" id="win6" data-theme="b" data-dialog="true" data-close-btn="none">
+
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home"  id="res6" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">:)</a>
+            <!--header-->
+            <h1>Step 6 of 7</h1>
+        </div>
+
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <h1>Enter password</h1>
+
+            <ul>
+                <li> If prompted, enter a password </li>
+                <li> Click "Apply"
+                </li>
+            </ul>
+            
+
+            <a href="#win5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win7" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right  nextP" data-theme="b">Next</a>
+
+
+        </article>
+
+    </section>
+    
+     <section data-role="page" id="win7" data-theme="b" data-dialog="true" data-close-btn="none">
+
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <a href="#home"  id="res7" class="remember" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"> :)</a>
+            <!--header-->
+            <h1>Step 7 of 7</h1>
+        </div>
+
+        <article data-role="content" data-theme="b">
+            <!--content-->
+       <h2>Verify connection</h2>
+            <img src="http://www.clipartbest.com/cliparts/Kcn/ogx/KcnogxBcq.png" alt="success" style="width:100%;">
+            <ul>
+                <li>Open a web browser</li>
+                <li> Load youtube.com to test if the connection is working!</li>
+                <li> Success!</li>
+            </ul>
+
+
+
+
+            <a href="#win6" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+            <a href="#win7" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+        </article>
+
+    </section>
+
+
+    <!--home-->
+
+
+
+
+
+
+
+    <!--About Section-->
+    <section data-role="page" id="info" data-theme="b">
+        <!--home-->
+        <div data-role="header" data-theme="b">
+            <!--header-->
+            <h1>About Me</h1>
+        </div>
+        <img src="" alt "Cris">
+        <article data-role="content" data-theme="b">
+            <!--content-->
+            <p>My name is Cris, and I am currently enrolled in the Mobile Application Design and Development program at Algonquin, I spend most of my time watching 20/20 murder mysteries and enjoy going online in my spare time</p>
+
+            <a href="#popupMe" data-rel="popup" data-position-to="window" data-transition="slidefade">
+                <img class="popphoto" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12063661_1047885725252058_1041817124214338385_n.jpg?oh=ce2dba0bd35919bbd45d6b395589ff89&oe=56E82C6E" alt="Me" style="width:75%">
+            </a>
+
+            <div data-role="popup" id="popupMe" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#popupMe" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+             
+            </div>
+
+      
+
+
+
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" class="ui-btn" data-icon="home" data-iconpos="top">Home</a>
+                        </li>
+
+                        <li><a href="#" class="ui-btn ui-state-disabled" data-icon="info" data-iconpos="top">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </article>
+
+    </section>
+    <!--home-->
+    <!--About Section End-->
+
+
+</body>
+
+</html>
